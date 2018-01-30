@@ -1,6 +1,8 @@
 env:
   global:
-    secure: cIGYsPd8OZ3X/ugDZyySmlMl/6gMcMMZQupTgPzHeq24mx+NR7gbVfQmTVnBjmXIpEemQFSe1KwQA2xdvkJ+rhObs8e1tldWFxjXd95Drlf1rKx1oy1LehPmXN4IpbY7PqEbncoSJywb7aLe18u+/2NFA27JsMh83y2xv6YfTQE=
+    secure: >
+      cIGYsPd8OZ3X/ugDZyySmlMl/6gMcMMZQupTgPzHeq24mx+NR7gbVfQmTVnBjmXIpEemQFSe1KwQA2xdvkJ+rh
+      Obs8e1tldWFxjXd95Drlf1rKx1oy1LehPmXN4IpbY7PqEbncoSJywb7aLe18u+/2NFA27JsMh83y2xv6YfTQE=
 
 language: php
 php:
