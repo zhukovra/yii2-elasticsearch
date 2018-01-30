@@ -22,7 +22,7 @@
         "ext-curl": "*"
     },
     "autoload": {
-        "psr-4": { "yii\\elasticsearch\\": "" }
+        "psr-4": { "yii\\elasticsearch\\": "src" }
     },
     "extra": {
         "branch-alias": {
