@@ -59,3 +59,23 @@ return [
     ]
 ];
 ```
+
+Tests
+-----
+
+### Running test in Docker
+Start ES container
+```
+ docker run -d --name elastic elasticsearch:alpine
+```
+Put local config in `tests/data/config.local.php`:
+```
+<?php
+$config['elasticsearch']['nodes'] = [['http_address' => 'es:9200']];
+```
+
+Run tests
+
+```
+docker run --rm --link elastic:es -v $PWD:/code yii2-es-app:latest
+```
